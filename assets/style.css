@@ -6,6 +6,12 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+  }
+  
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -90,9 +96,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -102,7 +105,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #575757;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
